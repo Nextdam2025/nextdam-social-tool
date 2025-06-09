@@ -1,0 +1,44 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f9f9f9;
+}
+.AppContainer {
+  max-width: 600px;
+  margin: auto;
+}
+.AppHeader {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.TextInput, .ScheduleInput {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+.SubmitButton {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.Tabs button {
+  margin-right: 5px;
+  padding: 8px 12px;
+}
+.ToggleOption {
+  display: inline-block;
+  margin-right: 8px;
+}
+.HistoryItem, .CalendarBlock {
+  background: #fff;
+  padding: 10px;
+  margin: 10px 0;
+  border-left: 4px solid #f26522;
+}
