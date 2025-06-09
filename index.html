@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>NextDam Social Tool</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="AppContainer">
+    <header class="AppHeader">
+      <img src="https://nextdam.nl/logo.png" alt="Logo" height="30" />
+      <span>NextDam Social Hub</span>
+    </header>
+
+    <textarea id="postContent" placeholder="Write your post..." class="TextInput"></textarea>
+    <input type="file" id="mediaUpload" />
+    <div class="PlatformToggles">
+      <label><input type="checkbox" value="instagram" /> Instagram</label>
+      <label><input type="checkbox" value="tiktok" /> TikTok</label>
+      <label><input type="checkbox" value="x" /> X</label>
+    </div>
+    <input type="datetime-local" id="scheduleInput" class="ScheduleInput" />
+    <button id="submitBtn" class="SubmitButton">🚀 Post</button>
+    <div id="statusMessage" class="StatusMessage"></div>
+
+    <h2>📜 History</h2>
+    <div id="historyContainer" class="HistoryContainer"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
